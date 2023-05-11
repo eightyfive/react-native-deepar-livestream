@@ -122,12 +122,12 @@ public class RNTDeepAR extends FrameLayout implements AREventListener, SurfaceHo
       }
     };
 
-    int streamingWidth = 720;
-    int streamingHeight = 1280;
+    int streamingWidth = 360;
+    int streamingHeight = 640;
 
     if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
-      streamingWidth = 1280;
-      streamingHeight = 720;
+      streamingWidth = 640;
+      streamingHeight = 360;
     }
 
     int finalStreamingWidth = streamingWidth;
