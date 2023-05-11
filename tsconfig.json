@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "rn-dogo-deepar-ivs": ["./src/index"]
+      "react-native-deepar-livestream": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

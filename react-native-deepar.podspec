@@ -3,7 +3,7 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
-  s.name = "rn-dogo-deepar-ivs"
+  s.name = "react-native-deepar-livestream"
   s.version = package["version"]
   s.summary = package["description"]
   s.homepage = package["homepage"]
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors = package["author"]
 
   s.platforms = { :ios => "11.0" }
-  s.source = { :git => "https://github.com/ridvanaltun/rn-dogo-deepar-ivs.git", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/eightyfive/react-native-deepar-livestream.git", :tag => "#{s.version}" }
 
   # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64' }
 
