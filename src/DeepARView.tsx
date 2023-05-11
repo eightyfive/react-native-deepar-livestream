@@ -152,7 +152,7 @@ const DeepARView = forwardRef<IDeepARHandle, IDeepARProps>(
         videoWarmup={videoWarmup ? 'true' : 'false'}
         ivsStreamKey={ivsStreamKey || ''}
         rtmpsServer={rtmpsServer || ''}
-        streamDeepArView={streamDeepArView ? 'true':'false'}
+        streamDeepArView={streamDeepArView ? 'true' : 'false'}
         onEventSent={({nativeEvent}) => {
           if (onEventSent) onEventSent(nativeEvent);
           switch (nativeEvent.type) {

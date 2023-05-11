@@ -27,9 +27,6 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
     "release": "release-it",
-    "example": "yarn --cwd example",
-    "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods",
     "commit": "git-cz"
   },
   "keywords": [
@@ -173,8 +170,6 @@
     ]
   },
   "directories": {
-  
-    "example": "example",
     "lib": "lib"
   }
 }
