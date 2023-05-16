@@ -70,7 +70,7 @@ dependencies {
 
 
   // CameraX core library using the camera2 implementation
-  def camerax_version = "1.1.0"
+  def camerax_version = "1.2.2"
 
   implementation "androidx.camera:camera-camera2:${camerax_version}"
   implementation "androidx.camera:camera-lifecycle:${camerax_version}"
@@ -79,6 +79,6 @@ dependencies {
   // The following line is optional, as the core library is included indirectly by camera-camera2
   implementation "androidx.camera:camera-core:${camerax_version}"
 
-  implementation 'com.amazonaws:ivs-broadcast:1.2.1'
-  implementation 'com.amazonaws:ivs-player:1.7.0'
+  implementation 'com.amazonaws:ivs-broadcast:1.8.0'
+  implementation 'com.amazonaws:ivs-player:1.18.0'
 }
