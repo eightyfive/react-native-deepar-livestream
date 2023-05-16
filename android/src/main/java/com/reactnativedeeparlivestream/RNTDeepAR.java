@@ -134,6 +134,7 @@ public class RNTDeepAR extends FrameLayout implements AREventListener, SurfaceHo
     int finalStreamingHeight = streamingHeight;
     broadcastConfig = BroadcastConfiguration.with($ -> {
       $.video.setSize(finalStreamingWidth, finalStreamingHeight);
+      $.video. setTargetFramerate(25);
       $.mixer.slots = new BroadcastConfiguration.Mixer.Slot[] {
         BroadcastConfiguration.Mixer.Slot.with(slot -> {
           slot.setPreferredVideoInput(Device.Descriptor.DeviceType.USER_IMAGE);
